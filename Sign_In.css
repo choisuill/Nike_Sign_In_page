@@ -5,10 +5,10 @@
 }
 
 #Sign_Up{
-    display: block;
+    display: none;
 }
 #Sign_In{
-    display: none;
+    display: block;
 }
 #wrapper{
     background-image: url(./img/Sign_In_bg.png);
