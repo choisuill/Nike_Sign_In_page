@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nike Shoes Sign_In</title>
+    <link rel="stylesheet" href="./Sign_In.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./Nike_Sign_In.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <!-- Sign_In part -->
+        <div class="wrap" id="Sign_In">
+            <div class="Img_Side"></div><!--
+            --><div class="Text_Side">
+                <div class="Text_Side_Box">
+                    <h3>Welcome Back!</h3>
+                    <p>Don`t have account ? &nbsp;&nbsp;&nbsp;&nbsp; <span id="goSign_Up">SIGN UP</span></p>
+                    <form action="">
+                        <input type="text" placeholder="Username"> <br>
+                        <input type="text" placeholder="Password"> <br>
+                        <input type="checkbox">
+                        <label for="checkbox">Remember Me !</label>
+                        <span class="forgetpw">Forget Password ?</span> <br>
+                        <input type="submit" value="LOGIN">
+                    </form>
+                    <div class="another_login">
+                        <div class="google"><img src="./img/google.png" alt="">
+                        <span>Sign In With google</span></div><!--
+                        --><div class="naver"><img src="./img/naver.png" alt="">
+                        <span>Sign In With Naver</span></div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <!-- Sign_In // -->
+        <!-- Sign_Up part -->
+        <div class="wrap" id="Sign_Up">
+            <div class="Img_Side"></div><!--
+        --><div class="Text_Side">
+            <div class="Text_Side_Box">
+                <h3>Create Account</h3>
+                <p>Already have account ? &nbsp;&nbsp;&nbsp;&nbsp; <span id="goSign_In">SIGN IN</span></p>
+                <form action="">
+                    <input type="text" placeholder="E-mail"> <br>
+                    <input type="text" placeholder="Username"> <br>
+                    <input type="text" placeholder="Password"> <br>
+                    <label for="checkbox">You have to agree to the terms and conditions.</label>
+                    <label for="agreebox" class="agree">I Agree</label>
+                    <input type="checkbox" id="agreebox">
+                    <input type="submit" value="SIGN UP">
+                </form>
+                <div class="another_login">
+                    <div class="google"><img src="./img/google.png" alt="">
+                    <span>Sign Up With google</span></div><!--
+                    --><div class="naver"><img src="./img/naver.png" alt="">
+                    <span>Sign Up With Naver</span></div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- Sign_Up // -->
+    </div>
+</body>
+</html>
