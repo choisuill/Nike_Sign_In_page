@@ -11,7 +11,7 @@
     display: block;
 }
 #wrapper{
-    background-image: url(./img/Sign_In_bg.png);
+    background-image: url(../img/Sign_In_bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
@@ -31,7 +31,7 @@
 .Img_Side{
     width: 50%;
     height: 100%;
-    background-image: url(./img/shoes_blue.png);
+    background-image: url(../img/shoes_blue.png);
     background-size: auto;
     background-repeat: no-repeat;
     display: inline-block;
