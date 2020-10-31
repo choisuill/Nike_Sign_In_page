@@ -190,14 +190,21 @@ header{
     margin-top: 25px;
 }
 .right-section .main-img{
+    position: relative;
     float: right;
     
 }
 .right-section .main-img img{
     height: 771px;
-    width: 100%;
+    width: 570px;
     display: block;
-    
+    position: absolute;
+    right: 0;
+    top: 0;
+    animation: fadeimg 6s infinite;
+}
+.right-section .main-img img:nth-child(2){
+    animation-delay: 3s
 }
 .sub-img-area{
     height: 210px;
@@ -223,3 +230,11 @@ header{
     transform: scale(1.1,1.1)
 }
 
+/* animation */
+@keyframes fadeimg{
+    0%{opacity: 0}
+    25%{opacity: 0}
+    50%{opacity: 1}
+    75%{opacity: 1}
+    100%{opacity: 0}
+}
